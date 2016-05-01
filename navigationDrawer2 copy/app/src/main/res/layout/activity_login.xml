@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" android:background="#ffff">
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:padding="10dip"
+            android:weightSum="1"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_centerInParent="true"
+            android:background="#ffffff"
+            android:id="@+id/linearLayout"
+            android:visibility="visible">
+
+            <ImageView
+                android:layout_width="170dp"
+                android:layout_height="56dp"
+                android:layout_weight="0.5"
+                android:src="@drawable/nextgcare"
+                android:adjustViewBounds="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_below="@+id/linearLayout2"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/logo"/>
+            <!--  Email Label -->
+            <TextView android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#372c24"
+                android:text="Email"
+                android:id="@+id/email"/>
+            <EditText android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:layout_marginBottom="20dip"
+                android:singleLine="true"
+                android:id="@+id/text1"/>
+            <!--  Password Label -->
+            <TextView android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#372c24"
+                android:text="Password"
+                android:id="@+id/password"/>
+            <EditText android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:singleLine="true"
+                android:password="true"
+                android:id="@+id/text2"/>
+            <!-- Login button -->
+            <Button android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:clickable="true"
+                android:onClick="start"
+                android:text="Login"
+                android:id="@+id/btnLogin"/>
+            <!-- Link to Registration Screen -->
+
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dip"
+                android:layout_marginBottom="10dip"
+                android:text="Not registered yet?"
+                android:gravity="center"
+                android:textSize="16dip"
+                android:textColor="#0b84aa"
+                android:clickable="true"
+                android:linksClickable="true"
+                android:id="@+id/link_to_register"/>
+
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-30dip"
+                android:layout_marginBottom="40dip"
+                android:text="Forgot password?"
+                android:gravity="center"
+                android:textSize="16dip"
+                android:textColor="#0b84aa"
+                android:layout_gravity="right"
+                android:clickable="true"
+                android:linksClickable="true"
+                android:id="@+id/link_to_forgot"/>
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+        <!-- Login Form Ends -->
+
+
+
+    </RelativeLayout>
+</ScrollView>

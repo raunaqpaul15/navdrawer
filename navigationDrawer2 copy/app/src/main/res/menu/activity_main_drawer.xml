@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_appt"
+            android:icon="@drawable/ic_appointment"
+            android:title="Manage Bookings" />
+        <item
+            android:id="@+id/nav_report"
+            android:icon="@drawable/ic_assignment_24dp"
+            android:title="Health Reports" />
+        <item
+            android:id="@+id/nav_healthy"
+            android:icon="@drawable/ic_healthy_living"
+            android:title="Healthy Living" />
+
+    </group>
+
+    <item android:title="Others">
+        <menu>
+            <!--<item
+                android:id="@+id/nav_nots"
+                android:icon="@drawable/ic_manage_nots"
+                android:title="Manage Bookings" />-->
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/ic_settings"
+                android:title="Profile Settings" />
+
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_logout"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>
+

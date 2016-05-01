@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">nextGcare</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">nextGcare</string>
+    <string name="title_activity_login">nextGcare</string>
+    <string name="title_activity_register">nextGcare</string>
+    <string name="title_activity_splash_screen">nextGcare</string>
+    <string name="title_activity_forgot_password">nextGcare</string>
+    <string name="title_activity_reset_password">nextGcare</string>
+    <string name="title_activity_place_picker">nextGcare</string>
+    <string name="placenname">Place name ...</string>
+    <string name="launchpp">Launch Place Picker</string>
+    <string name="selectdate">Touch here to select a date</string>
+    <string name="timeselect">Touch here to select a time</string>
+    <string name="title_activity_location">Location</string>
+    <string name="title_activity_graph_view">GraphView</string>
+    <string name="title_activity_landing_page">LandingPage</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_register2">Register2</string>
+    <string name="title_activity_update">Update</string>
+
+</resources>

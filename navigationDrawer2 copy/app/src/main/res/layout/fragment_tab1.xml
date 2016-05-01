@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp" />
+
+
+    <Button
+        android:id = "@+id/bt_ppicker"
+        android:text = "@string/launchpp"
+        android:layout_width = "351dp"
+        android:layout_height = "wrap_content"/>
+
+    <TextView
+        android:id = "@+id/tv_place_id"
+        android:text = "@string/placenname"
+        android:layout_width = "353dp"
+        android:layout_height = "59dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtdate"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.08"
+        android:hint="@string/selectdate"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="time"
+        android:ems="10"
+        android:layout_weight="0.08"
+        android:id="@+id/txt_time"
+        android:layout_gravity="center_horizontal"
+        android:hint="@string/timeselect"/>
+
+    <GridView
+        android:layout_width="match_parent"
+        android:layout_height="178dp"
+        android:id="@+id/gridview1"
+        android:columnWidth="90dp"
+        android:numColumns="4"
+        android:verticalSpacing="5dp"
+        android:horizontalSpacing="10dp"
+        android:stretchMode="columnWidth"
+        android:gravity="center"
+        android:visibility="invisible"
+
+        />
+
+
+</LinearLayout>

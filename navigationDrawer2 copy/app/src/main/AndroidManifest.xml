@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.akshayasrinivasan.navigationdrawer">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyB9XTmE124yLcb5a4Hb7sJL9ACP5vpfIv8" />
+
+        <activity
+            android:name=".MainActivity"
+            android:label="Settings"
+            android:largeHeap="true"
+            android:theme="@style/AppTheme.NoActionBar" >
+
+        </activity>
+        <activity
+            android:name=".Login"
+            android:label="@string/title_activity_login"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Register"
+            android:label="@string/title_activity_register"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SplashScreen"
+            android:label="@string/title_activity_splash_screen"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ForgotPassword"
+            android:label="Reset login credentials"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ResetPassword"
+            android:label="Reset login credentials"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".measurement"
+            android:label="@string/title_activity_location"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".GraphView"
+            android:label="@string/title_activity_graph_view"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="org.achartengine.GraphicalActivity" />
+        <activity
+            android:name=".LandingPage"
+            android:label="@string/title_activity_landing_page"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Update"
+            android:label="@string/title_activity_update"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>
